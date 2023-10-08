@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard</title>
+    
+    <style>
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ddb8a6;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #7b876d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .dropdown {
+            position: relative; 
+            display: inline-block; 
+        }
+
+
+        .dropdown ul {
+            display: none;
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+
+        .dropdown:hover ul {
+            display: block;
+        }
+
+
+        .dropdown ul li {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+
+        .dropdown ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .dropdown ul li a:hover {
+            background-color: #f5f5f5;
+        }
+
+        a:hover {
+        color: #502a0b;
+        }
+
+        aside {
+            background-color: #d49b7e;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .wireframes {
+            text-align: center;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .wireframe {
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .wireframe img {
+            width: 500px; 
+            height: auto; 
+            margin: 10px; 
+        }
+
+        .wireframe p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .page-list {
+            margin-top: 30px;
+            background-color: #c67f43; 
+            color: #fff; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .page-list h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #f5efef;
+        }
+
+        .page-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .theme {
+            margin-top: 30px;
+        }
+
+        .theme h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .features {
+            margin-top: 20px;
+        }
+
+        .features ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+
+        .site-theme {
+            margin-top: 30px;
+            background-color: #f9f9f9; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-theme h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+
+        .features-list {
+            margin-top: 20px;
+            background-color: #d49b7e;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .features-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+
+        .hosting-link {
+            margin-top: 30px;
+            background-color: #c67f43; 
+            color: #fff; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hosting-link a {
+            text-decoration: none;
+            color: #44260e;
+        }
+
+        .hosting-link a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #7b876d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="Reference.html">Reference</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li class="dropdown">
+                <a href="Personal Development.html">Personal Development &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#book-summary">Book Summary</a></li>
+                    <li><a href="#degree-skills">Degree & Skills</a></li>
+            
+                </ul>
+            </li>
+            <li><a href="Storyboard.html">Storyboard</a></li>
+            <li><a href="Index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h1>Welcome to My Storyboard Page</h1>
+        <p>Here you will find a visual representation of the planned layout and design for the pages of this website. The storyboard provides a wireframe that outlines the structure and content of each page, helping to visualize the site's organization.</p>
+        
+    </aside>
+
+    <main>
+        <section class="wireframes">
+            <section class="wireframes">
+                <h2>Wireframes</h2>
+                <div class="wireframe">
+                    <img src="../Assets/Resources Wire.png" alt="Wireframe 1">
+                    <p>Reference Page</p>
+                </div>
+                <div class="wireframe">
+                    <img src="../Assets/Personality Wire.png" alt="Wireframe 2">
+                    <p>Personality Page</p>
+                </div>
+                <div class="wireframe">
+                    <img src="../Assets/Professional Wire.png" alt="Wireframe 3">
+                    <p>Professional Page</p>
+                </div>
+                <div class="wireframe">
+                    <img src="../Assets/Index Wire.png" alt="Wireframe 4">
+                    <p>Contact Page</p>
+                </div>
+                <div class="wireframe">
+                    <img src="../Assets/Develop Wire.png" alt="Wireframe 5">
+                    <p>Personal Development Page</p>
+                </div>
+                <div class="wireframe">
+                    <img src="../Assets/Story Wire.png" alt="Wireframe 6">
+                    <p>Storyboard Page</p>
+                </div>
+            </section>
+
+        </section>
+        <section class="page-list">
+            <h2>Page List</h2>
+            <ul>
+                <li>Reference Page - Here, you will find bibliographic sources used on the page</li>
+                <li>Personality Page -Here, you will find information on my personality traits, how they influence my life, and insights into my favorite quote and moments.</li>
+                <li>Professional Page - Here, you will find information about my career aspirations, qualifications, and more.</li>
+                <li>Contact Page - Here you will find an image of Myself with link to my E-mail so that you may contact me.</li>
+                <li>Personal Development Page - Here, you will find valuable insights and information related to my journey of self-improvement and growth</li>
+                <li>Storyboard Page - Here, you will find a visual representation of the planned layout and design for the pages of this website. The storyboard provides a wireframe that outlines the structure and content of each page, helping to visualize the site's organization.</li>
+            </ul>
+        </section>
+        <section class="site-theme">
+            <h2>Site Theme</h2>
+            <p>My website is designed with a vibrant and engaging color palette that reflects my identity and sets the tone for an exciting online experience. The theme brings out the feel of the site and caters to my target audience of potential employers, colleagues, and anyone interested in learning more about me.</p>
+            <p>We've chosen a harmonious blend of colors, including warm shades of gold, earthy greens, and rich browns, to create a welcoming and visually appealing environment. These colors are carefully selected to evoke a sense of creativity, growth, and connection.</p>
+            <p>As you explore our website, you'll notice these colors thoughtfully integrated into various elements, enhancing the overall aesthetics and ensuring a delightful browsing experience.</p>
+        </section>
+        </section>
+        <section class="features-list">
+            <h2>Features List</h2>
+            <ul>
+                <li>Image Gallery</li>
+                <li>External Links</li>
+                <li>Internal Links</li>
+                <li>Quote Styling</li>
+     
+            </ul>
+        </section>
+        <section class="hosting-link">
+            <h2>Hosting Link</h2>
+            <p>
+                You can view the website on the hosting server by following this link: <a href="#">YourHostingLink.com</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>

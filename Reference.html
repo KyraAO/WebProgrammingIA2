@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <style>
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+   
+        body {
+            background-color: #ddb8a6;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+   
+        nav {
+            background-color: #7b876d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .dropdown {
+            position: relative; 
+            display: inline-block; 
+        }
+
+  
+        .dropdown ul {
+            display: none;
+            position: absolute;
+            top: 100%; 
+            left: 0; 
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+
+        .dropdown:hover ul {
+            display: block;
+        }
+
+        .dropdown ul li {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .dropdown ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+
+        .dropdown ul li a:hover {
+            background-color: #f5f5f5;
+        }
+
+        a:hover {
+        color: #502a0b;
+        }
+
+        footer {
+            background-color: #7b876d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+         }
+
+        .index {
+            text-align: left; 
+            padding: 20px; 
+            background-color: #d49b7e; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        .index h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .index p {
+            margin-bottom: 15px;
+        }
+
+
+        .reference-list {
+            background-color: #c67f43; 
+            color: #fff; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .reference {
+            margin-bottom: 20px;
+        }
+
+        .reference-list ul {
+            list-style-type: disc; 
+            padding-left: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Reference.html">Reference</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li class="dropdown">
+                <a href="Personal Development.html">Personal Development &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#book-summary">Book Summary</a></li>
+                    <li><a href="#degree-skills">Degree & Skills</a></li>
+            
+                </ul>
+            </li>
+            <li><a href="Storyboard.html">Storyboard</a></li>
+            <li><a href="Index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article class="index">
+        <h1>Welcome to my Reference Page</h1>
+    </article>
+
+    <section class="reference-list">
+        <ul>
+            <li>
+            Rohn, J. (n.d.). (PDF) Twelve pillars. dokumen.tips. https://dokumen.tips/documents/twelve-pillars.html?page=1
+            </li>
+            <li>
+            <i>16 Personalities Free Personality Test</i>. 16 Personalities.(n.d.)https://www.16personalities.com/
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+
+</body>
+</html>

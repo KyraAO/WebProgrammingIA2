@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+</head>
+<style>
+ 
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+ 
+    body {
+        background-color: #ddb8a6;
+        color: #333;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+  
+    nav {
+        background-color: #7b876d;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+
+ 
+        .dropdown ul {
+            display: none;
+            position: absolute;
+            top: 100%; 
+            left: 0; 
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+  
+        .dropdown:hover ul {
+            display: block;
+        }
+
+   
+        .dropdown ul li {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+  
+        .dropdown ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+    
+        .dropdown ul li a:hover {
+            background-color: #f5f5f5;
+        }
+
+    article {
+        background-color: #d49b7e;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+ 
+    aside {
+        background-color: #ddb8a6;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+   
+    footer {
+        background-color: #7b876d;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+  
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    a:hover {
+        color: #502a0b;
+    }
+
+   
+    .resume {
+            text-align: center; 
+        }
+
+        .resume img {
+            max-width: 60%; 
+            margin: 20px 0; 
+        }
+
+    .vision {
+            background-color: #c67f43; 
+            color: #fff; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+ 
+        .mission {
+            background-color: #f9f9f9; 
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+</style>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="Reference.html">Reference</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li class="dropdown">
+                <a href="Personal Development.html">Personal Development &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#book-summary">Book Summary</a></li>
+                    <li><a href="#degree-skills">Degree & Skills</a></li>
+            
+                </ul>
+            </li>
+            <li><a href="Storyboard.html">Storyboard</a></li>
+            <li><a href="Index.html">Contact</a></li>
+        </ul>
+    </nav>
+  
+    <article>
+        <h1>Welcome to My Professional Page</h1>
+        <p>Here, you will find information about my career aspirations, qualifications, and more.</p>
+    </article>
+
+
+    <aside>
+        <h2>About Me</h2>
+        <p>I am a dedicated student with a passion for technology and a vision for a successful career in the field.</p>
+    </aside>
+
+    <section class="resume">
+        <img src="../Assets/Kyra O'Connor Resume.png" alt="Resume Image">
+    </section>
+
+    <div class="vision">
+        <h2>Vision Statement</h2>
+        <p>I envision a future where I am a leading innovator in the tech industry, creating solutions that improve people's lives.</p>
+    </div>
+
+    <div class="mission">
+        <h2>Mission Statement</h2>
+        <p>My mission is to continuously learn and adapt, working diligently to achieve my goals and make a positive impact on the world through technology.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Kyra O'Connor</p>
+    </footer>
+</body>
+</html>
